@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/OS-HW4/WET/malloc_2.h
+sys/types.h
+-
+
+/home/student/Desktop/OS-HW4/WET/malloc_3_hod.cpp
+malloc_2.h
+/home/student/Desktop/OS-HW4/WET/malloc_2.h
+unistd.h
+-
+stdlib.h
+-
+iostream
+-
+cstring
+-
+stdio.h
+-
+cassert
+-
+sys/mman.h
+-
+
+/home/student/Desktop/OS-HW4/WET/test3.cpp
+malloc_3_hod.cpp
+/home/student/Desktop/OS-HW4/WET/malloc_3_hod.cpp
+assert.h
+-
+exception
+-
+stdio.h
+-
+iostream
+-
+bits/stdc++.h
+-
+
