@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7  -g  -rdynamic CMakeFiles/tam.dir/malloc_3_test3.cpp.o  -o tam 

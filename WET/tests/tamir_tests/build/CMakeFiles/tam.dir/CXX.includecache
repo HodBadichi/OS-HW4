@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/OS-HW4/OS-HW4/WET/tests/tamir_tests/malloc_2.h
+sys/types.h
+-
+
+/home/student/Desktop/OS-HW4/OS-HW4/WET/tests/tamir_tests/malloc_3.cpp
+malloc_2.h
+/home/student/Desktop/OS-HW4/OS-HW4/WET/tests/tamir_tests/malloc_2.h
+unistd.h
+-
+stdlib.h
+-
+iostream
+-
+cstring
+-
+stdio.h
+-
+cassert
+-
+sys/mman.h
+-
+
+/home/student/Desktop/OS-HW4/OS-HW4/WET/tests/tamir_tests/malloc_3_test3.cpp
+assert.h
+-
+iostream
+-
+malloc_3.cpp
+/home/student/Desktop/OS-HW4/OS-HW4/WET/tests/tamir_tests/malloc_3.cpp
+
